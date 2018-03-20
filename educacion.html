@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Curriculum Vitae</title>
+  </head>
+  <body>
+    <header>
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300px" height="100px" viewBox="0 0 300 100" preserveAspectRatio="xMidYMid meet"  ><rect id="svgEditorBackground" x="0" y="0" width="300" height="300" style="fill: none; stroke: none;"/><text style="fill:black;font-family:Arial;font-size:20px;" x="0" y="100" id="e1_texte" transform="matrix(1 0 0 1 -106.5 -113)"></text><g id="e4_group" transform="matrix(1 0 0 1 -106.5 -113)"><text style="fill:black;font-family:Arial;font-size:20px;" x="120" y="180" id="e2_texte">JOSE LOPEZ</text><rect x="120" y="190" style="fill:blue;stroke:black;stroke-width:1px;" id="e3_rectangle" width="129" height="20"  ry="0" rx="0"/><rect x="120" y="135" style="fill:red;stroke:black;stroke-width:1px;" id="e2_rectangle" width="129" height="20"  ry="0" rx="0"/></g></svg>
+      <h1>Curriculum Vitae</h1>
+      <h2>José López</h2>
+
+    </header>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="educacion.html">Educación</a>
+      <a href="experiencia.html">Experiencia</a>
+    </nav>
+    
+    <section name="perfil">
+      <h2>Educación</h2>
+      <table border="1" width="500px">
+        <thead>
+          <tr>
+            <td>Año</td>
+            <td>Institución</td>
+            <td>Titulo</td>
+            <td>¿Culmino?</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2012</td>
+            <td>Universidad Autonóma de Asunción</td>
+            <td>Lic. Informática </td>
+            <td>Si</td>
+          </tr>
+          <tr>
+            <td>2015</td>
+            <td>Universidad Autonóma de Asunción</td>
+            <td>Esp. Auditoria Informática</td>
+            <td>Si</td>
+          </tr>
+          <tr>
+            <td>2018</td>
+            <td>Universidad Das Cataratas</td>
+            <td>MBA - Gestión de Proyectos</td>
+            <td>Si</td>
+          </tr>
+          <tr>
+            <td>2018</td>
+            <td>Universidad Iberoamericana</td>
+            <td>Esp. Gestión de Redes</td>
+            <td>No</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>Agregar Estudios</h2>
+      <form class="" action="index.html" method="post" autocomplete="on" name="Mi formulario">
+        <label for="anho">Año:</label>
+        <select class="" name="anho">
+          <option value="2012">2012</option>
+          <option value="2013">2013</option>
+          <option value="2014">2014</option>
+          <option value="2015">2015</option>
+          <option value="2016">2016</option>
+          <option value="2017">2017</option>
+          <option value="2018">2018</option>
+        </select>
+        <br>
+        <label for="institucion">Institución: </label>
+        <input type="text" name="institucion" value="" placeholder="Universidad.."required>
+        <br>
+        <label for="titulo">Titulo:</label>
+        <br>
+        <textarea name="titulo" rows="8" cols="70" required></textarea>
+        <br>
+        <label for="culmino">¿Culmino?:</label>
+        <input type="radio" name="culmino"checked value="Si">
+        <input type="radio" name="culmino" value="No">
+        <br>
+        <button type="submit" name="enviar">Enviar</button>
+      </form>
+      <br>
+    </section>
+
+
+
+    <footer>
+      <span>&copy Todos los Derechos Reservados</span>
+      <ul>
+        <li><strong>Email: </strong>joselo_4172@hotmail.com</li>
+        <li><strong>Telefóno: </strong>+595981315118</li>
+        <li><strong>Dirección: </strong>Avda. Del Lago y Cap. Acosta - Ciudad del Este</li>
+      </ul>
+
+    </footer>
+
+  </body>
+</html>
